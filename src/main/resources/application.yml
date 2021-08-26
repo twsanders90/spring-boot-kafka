@@ -1,0 +1,22 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernae:
+        dialect:
+
+
+  datasource:
+    url:
+    username: ${USERNAME}
+    password: ${PASSWORD}r
+    driver-class-name:
+      platform: postgres
+
+
+server:
+  error:
+    whitelabel:
+      enabled: false
